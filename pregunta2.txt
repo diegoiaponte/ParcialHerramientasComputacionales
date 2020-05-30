@@ -1,0 +1,24 @@
+1. Que tipo de errores se presentaron o se pueden presentar con su implementacion al problema?
+
+R/  El principal error que obtuvimos mientras generabamos la solucion al problema ocurrio en el codigo, 
+mas especificamente al asignar el tipo de dato que debia tener cada variable, primero le asignamos tipo "float" es decir,
+numero con decimales a las variables como precio, precio_final y descuento pero obteniamos errores de logica y en los 
+calculos, asi que intentamos hacerlo con variables tipo entero y el codigo funcionaba pero no para cualquier dato, 
+finalmente nos dimos cuenta que al llamar las variables en un "printf" lo estabamos haciendo con "%d" y al cambiarlo por
+"%f" el codigo funcionó completamente.
+Un error que se podria generar es en el momento de ingresar el rol del usuario, ya que si este esta mal escrito o se 
+ingresa una palabra diferente a "estudiante" o "profesor" el programa no haria descuento, algo que implementamos para 
+reducir la posibilidad de este error es poner las palabras que se pueden poner en la pregunta especificamente, pero una
+mejor solucion podria ser crear un condicional que me indique si la palabra ingresada en la pregunta sobre el rol es 
+diferente a las que se pueden ingresar y segun esto el programa lanzará un error.
+
+
+2. Que estrategias podria usar para solucionar estos errores?
+
+R/  Algo que implementamos para reducir la posibilidad de este error es poner las palabras que se pueden poner 
+en la pregunta especificamente: (estudiante-profesor), pero una mejor solucion podria ser crear un condicional que me 
+indique si la palabra ingresada en la pregunta sobre el rol es diferente a las que se pueden ingresar y segun esto 
+el programa podria volver a preguntar hasta obtener un resultado dentro de los validos, o hacer un proceso diferente como 
+no dar el descuento o dar alguno diferente segun algun otro rol que pueda existir, todo dependeria de las especificaciones 
+que requiera la solucion.
+

@@ -20,4 +20,7 @@ Tenga en cuenta que este valor final a pagar corresponde al precio de cada produ
     4. Se identifica el rol y según este se establece un descuento.
     5. Se calcula el valor con el descuento aplicado ((precio * cantidad)-(precio * cantidad * descuento)).
     6. Se muestrán algunos de los datos de entrada junto a la salida (costo final)
-  - **Lenguaje de programación-** _parcial.c_, se encuentra implementado en el lenguaje de programación _C_.  
+  - **Lenguaje de programación-** _parcial.c_, se encuentra implementado en el lenguaje de programación _C_.
+
+## pregunta2.txt
+ Este documento contiene las consideraciones sobre el programa, errores durante su implementación, cómo estos fueron resueltos y los posibles errores que podrían ser encontrados en este y cómo se podrían solucionar.
